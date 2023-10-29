@@ -30,6 +30,19 @@ namespace VPFOrm
             //string mujahed = result.ToString();
             //label1.Text = mujahed;
 
+            if(textBox1.Text =="")
+            {
+                label4.Text = "Bless enter your name we need to know who we talk to";
+            }
+            else if(textBox2.Text=="")
+            {
+                label4.Text = "Bless enter your password to check if it's really you";
+            }
+            else
+            {
+                label4.Text = "Thanks " + textBox1.Text + " We glad to have you with us";
+            }
+
         }
     }
 }
