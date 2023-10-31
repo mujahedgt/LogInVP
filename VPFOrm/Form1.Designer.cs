@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_LogIn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.text_UserName = new System.Windows.Forms.TextBox();
+            this.text_Passowrd = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_LogIn
             // 
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 22.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(804, 667);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(516, 110);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "LogIn";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_LogIn.Font = new System.Drawing.Font("Comic Sans MS", 22.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_LogIn.Location = new System.Drawing.Point(804, 667);
+            this.btn_LogIn.Name = "btn_LogIn";
+            this.btn_LogIn.Size = new System.Drawing.Size(516, 110);
+            this.btn_LogIn.TabIndex = 0;
+            this.btn_LogIn.Text = "LogIn";
+            this.btn_LogIn.UseVisualStyleBackColor = true;
+            this.btn_LogIn.Click += new System.EventHandler(this.btn_LogIn_Click);
             // 
             // label1
             // 
@@ -66,22 +66,22 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Passowrd";
             // 
-            // textBox1
+            // text_UserName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(888, 283);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(487, 74);
-            this.textBox1.TabIndex = 3;
+            this.text_UserName.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_UserName.Location = new System.Drawing.Point(888, 283);
+            this.text_UserName.Name = "text_UserName";
+            this.text_UserName.Size = new System.Drawing.Size(487, 74);
+            this.text_UserName.TabIndex = 3;
             // 
-            // textBox2
+            // text_Passowrd
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(888, 472);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(487, 62);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.UseSystemPasswordChar = true;
+            this.text_Passowrd.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_Passowrd.Location = new System.Drawing.Point(888, 472);
+            this.text_Passowrd.Name = "text_Passowrd";
+            this.text_Passowrd.Size = new System.Drawing.Size(487, 62);
+            this.text_Passowrd.TabIndex = 4;
+            this.text_Passowrd.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -111,11 +111,11 @@
             this.ClientSize = new System.Drawing.Size(1982, 922);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.text_Passowrd);
+            this.Controls.Add(this.text_UserName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_LogIn);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -125,11 +125,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_LogIn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox text_UserName;
+        private System.Windows.Forms.TextBox text_Passowrd;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
     }

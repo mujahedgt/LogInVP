@@ -19,7 +19,7 @@ namespace VPFOrm
             InitializeComponent();
         }
 
-        private async void button1_Click(object sender, EventArgs e)
+        private async void btn_LogIn_Click(object sender, EventArgs e)
         {
             //HttpClient client = new HttpClient();
             //client.BaseAddress = new Uri("https://localhost:7035/WeatherForecast");
@@ -29,18 +29,22 @@ namespace VPFOrm
             //var result = await client.GetStringAsync("");
             //string mujahed = result.ToString();
             //label1.Text = mujahed;
+           
 
-            if(textBox1.Text =="")
+            if(text_UserName.Text =="")
             {
-                label4.Text = "Bless enter your name we need to know who we talk to";
+                MessageBox.Show("Bless enter your name we need to know who we talk to");
+                //label4.Text = "";
             }
-            else if(textBox2.Text=="")
+            else if(text_Passowrd.Text=="")
             {
-                label4.Text = "Bless enter your password to check if it's really you";
+                MessageBox.Show("Bless enter your password to check if it's really you");
+                //label4.Text = "";
             }
             else
             {
-                label4.Text = "Thanks " + textBox1.Text + " We glad to have you with us";
+                string UserName = text_UserName.Text;
+                label4.Text = "Thanks " + UserName + " We glad to have you with us";
             }
 
         }
