@@ -33,6 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.text_Last = new System.Windows.Forms.TextBox();
+            this.txtCont = new System.Windows.Forms.TextBox();
+            this.txtCont2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_Switch
@@ -53,6 +55,7 @@
             this.text_First.Name = "text_First";
             this.text_First.Size = new System.Drawing.Size(341, 74);
             this.text_First.TabIndex = 1;
+            this.text_First.TextChanged += new System.EventHandler(this.text_First_TextChanged);
             // 
             // label1
             // 
@@ -82,11 +85,27 @@
             this.text_Last.Size = new System.Drawing.Size(341, 74);
             this.text_Last.TabIndex = 4;
             // 
+            // txtCont
+            // 
+            this.txtCont.Location = new System.Drawing.Point(847, 398);
+            this.txtCont.Name = "txtCont";
+            this.txtCont.Size = new System.Drawing.Size(100, 31);
+            this.txtCont.TabIndex = 5;
+            // 
+            // txtCont2
+            // 
+            this.txtCont2.Location = new System.Drawing.Point(847, 453);
+            this.txtCont2.Name = "txtCont2";
+            this.txtCont2.Size = new System.Drawing.Size(100, 31);
+            this.txtCont2.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1096, 623);
+            this.Controls.Add(this.txtCont2);
+            this.Controls.Add(this.txtCont);
             this.Controls.Add(this.text_Last);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -106,6 +125,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox text_Last;
+        private System.Windows.Forms.TextBox txtCont;
+        private System.Windows.Forms.TextBox txtCont2;
     }
 }
 

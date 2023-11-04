@@ -23,5 +23,20 @@ namespace VBProphail
             text_First.Text = text_Last.Text;
             text_Last.Text = swit;
         }
+
+        private void text_First_TextChanged(object sender, EventArgs e)
+        {
+            String mj = text_First.Text;
+            int conter = 0;
+
+            for(int i = 0; i < mj.Length; i++)
+            {
+                if (mj[i] == ' ' || mj[i] == ',' || mj[i] == '\'' || mj[i]=='.') {
+                    conter++;
+                }
+            }
+            txtCont2.Text = conter.ToString();
+            txtCont.Text = text_First.Text.Length.ToString();
+        }
     }
 }
