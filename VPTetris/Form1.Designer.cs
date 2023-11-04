@@ -48,6 +48,8 @@
             // 
             // btn0
             // 
+            this.btn0.FlatAppearance.BorderSize = 5;
+            this.btn0.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.Location = new System.Drawing.Point(112, 61);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(131, 85);
@@ -58,6 +60,8 @@
             // 
             // btn12
             // 
+            this.btn12.FlatAppearance.BorderSize = 5;
+            this.btn12.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn12.Location = new System.Drawing.Point(112, 537);
             this.btn12.Name = "btn12";
             this.btn12.Size = new System.Drawing.Size(131, 85);
@@ -66,6 +70,8 @@
             // 
             // btn8
             // 
+            this.btn8.FlatAppearance.BorderSize = 5;
+            this.btn8.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(112, 375);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(131, 85);
@@ -74,6 +80,8 @@
             // 
             // btn4
             // 
+            this.btn4.FlatAppearance.BorderSize = 5;
+            this.btn4.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.Location = new System.Drawing.Point(112, 210);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(131, 85);
@@ -82,6 +90,8 @@
             // 
             // btn5
             // 
+            this.btn5.FlatAppearance.BorderSize = 5;
+            this.btn5.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.Location = new System.Drawing.Point(401, 210);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(131, 85);
@@ -92,6 +102,8 @@
             // 
             // btn9
             // 
+            this.btn9.FlatAppearance.BorderSize = 5;
+            this.btn9.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(401, 375);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(131, 85);
@@ -100,6 +112,8 @@
             // 
             // btn13
             // 
+            this.btn13.FlatAppearance.BorderSize = 5;
+            this.btn13.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn13.Location = new System.Drawing.Point(401, 537);
             this.btn13.Name = "btn13";
             this.btn13.Size = new System.Drawing.Size(131, 85);
@@ -110,6 +124,8 @@
             // 
             // btn1
             // 
+            this.btn1.FlatAppearance.BorderSize = 5;
+            this.btn1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.Location = new System.Drawing.Point(401, 61);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(131, 85);
@@ -118,6 +134,8 @@
             // 
             // btn6
             // 
+            this.btn6.FlatAppearance.BorderSize = 5;
+            this.btn6.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.Location = new System.Drawing.Point(681, 210);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(131, 85);
@@ -126,6 +144,8 @@
             // 
             // btn10
             // 
+            this.btn10.FlatAppearance.BorderSize = 5;
+            this.btn10.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn10.Location = new System.Drawing.Point(681, 375);
             this.btn10.Name = "btn10";
             this.btn10.Size = new System.Drawing.Size(131, 85);
@@ -136,6 +156,8 @@
             // 
             // btn14
             // 
+            this.btn14.FlatAppearance.BorderSize = 5;
+            this.btn14.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn14.Location = new System.Drawing.Point(681, 537);
             this.btn14.Name = "btn14";
             this.btn14.Size = new System.Drawing.Size(131, 85);
@@ -144,6 +166,8 @@
             // 
             // btn2
             // 
+            this.btn2.FlatAppearance.BorderSize = 5;
+            this.btn2.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.Location = new System.Drawing.Point(681, 61);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(131, 85);
@@ -152,6 +176,8 @@
             // 
             // btn7
             // 
+            this.btn7.FlatAppearance.BorderSize = 5;
+            this.btn7.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(984, 210);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(131, 85);
@@ -160,6 +186,8 @@
             // 
             // btn11
             // 
+            this.btn11.FlatAppearance.BorderSize = 5;
+            this.btn11.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn11.Location = new System.Drawing.Point(984, 375);
             this.btn11.Name = "btn11";
             this.btn11.Size = new System.Drawing.Size(131, 85);
@@ -168,6 +196,8 @@
             // 
             // btn15
             // 
+            this.btn15.FlatAppearance.BorderSize = 5;
+            this.btn15.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn15.Location = new System.Drawing.Point(984, 537);
             this.btn15.Name = "btn15";
             this.btn15.Size = new System.Drawing.Size(131, 85);
@@ -176,6 +206,8 @@
             // 
             // btn3
             // 
+            this.btn3.FlatAppearance.BorderSize = 5;
+            this.btn3.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(984, 61);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(131, 85);
@@ -186,6 +218,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1281, 802);
             this.Controls.Add(this.btn7);
             this.Controls.Add(this.btn11);
