@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VBProphail", "VBProphail\VB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPTetris", "VPTetris\VPTetris.csproj", "{F93D3153-1B61-4E2E-B6FD-F39BC2498964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPNow", "VPNow\VPNow.csproj", "{1B08F7D5-F055-4709-AD9A-EB57EDA3E5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VP2Forms", "VP2Forms\VP2Forms.csproj", "{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F93D3153-1B61-4E2E-B6FD-F39BC2498964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93D3153-1B61-4E2E-B6FD-F39BC2498964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93D3153-1B61-4E2E-B6FD-F39BC2498964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B08F7D5-F055-4709-AD9A-EB57EDA3E5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B08F7D5-F055-4709-AD9A-EB57EDA3E5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B08F7D5-F055-4709-AD9A-EB57EDA3E5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B08F7D5-F055-4709-AD9A-EB57EDA3E5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
