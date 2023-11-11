@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPNow", "VPNow\VPNow.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VP2Forms", "VP2Forms\VP2Forms.csproj", "{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPMujahedProduct", "VPMujahedProduct\VPMujahedProduct.csproj", "{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A85A94F-83D6-4A14-BA75-BCAC18D5BF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
