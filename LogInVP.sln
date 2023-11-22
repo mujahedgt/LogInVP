@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VP2Forms", "VP2Forms\VP2For
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPMujahedProduct", "VPMujahedProduct\VPMujahedProduct.csproj", "{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VP0", "VP0\VP0.csproj", "{888DDEBE-5F1B-47FE-9F4B-F040F44C2EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPDynameck", "VPDynameck\VPDynameck.csproj", "{9EFFFE77-DF40-48A9-AD7B-F7B472CFBE78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEBC07F8-FB9D-43EB-8C97-11D5B3286402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888DDEBE-5F1B-47FE-9F4B-F040F44C2EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888DDEBE-5F1B-47FE-9F4B-F040F44C2EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888DDEBE-5F1B-47FE-9F4B-F040F44C2EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888DDEBE-5F1B-47FE-9F4B-F040F44C2EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFFFE77-DF40-48A9-AD7B-F7B472CFBE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFFFE77-DF40-48A9-AD7B-F7B472CFBE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFFFE77-DF40-48A9-AD7B-F7B472CFBE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFFFE77-DF40-48A9-AD7B-F7B472CFBE78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
